@@ -17,6 +17,20 @@ class QuestionTest {
             System.out.println("\n"+Ques[i]);
             System.out.println("\n1から4までの数字で答えてね.");
         }
+        System.out.println(2/-2);
+    }
+    @Test
+    void counter(){
+        int i =0;
+        //三文でbreak
+        while(true){
+            i++;
+            if(i==4){
+                break;
+            }else {
+                System.out.println("まだやで");
+            }
+        }
     }
 
 }
