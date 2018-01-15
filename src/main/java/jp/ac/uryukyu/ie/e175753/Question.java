@@ -101,6 +101,8 @@ public class Question {
         }
 
 //セッターゲッター
+    public double getPoint(){return point;}
+    public void setPoint(double point){this.point=point;}
     public int getQues() { return ques; }
     public void setQues(int ques){this.ques=ques;}
     public int getQrmath(){
